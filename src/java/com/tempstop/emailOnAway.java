@@ -75,7 +75,7 @@ public class emailOnAway implements Plugin, PacketInterceptor {
 	                	emailService.sendMessage(
 	                			userTo.getName(), 				//To Name in email header
 		                		userTo.getEmail(), 				//Destination email address
-		                		userFrom.getName(), 			//From Display Name in email header
+		                		userFrom.getUsername(), 		//From Display Name in email header
 		                		emailService.getUsername(),		//From address in email header
 		                		"Offline Message",				//Email Subject
 		                		msg.getBody(), 					//Email Body
