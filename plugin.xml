@@ -3,9 +3,9 @@
     <!-- Main plugin class -->
     <class>com.tempstop.emailOnAway</class>
 
-    <name>Email on Away</name>
-    <description>Messages sent to alternate location when recipient is away</description>
-    <author>Nick Mossie</author>
+    <name>Email on Offline</name>
+    <description>Messages sent to alternate location when recipient is offline</description>
+    <author>Nick Mossie / Kyle Lynch</author>
     <version>${project.version}</version>
     <date>tbc.</date>
     <minServerVersion>4.0.0</minServerVersion>
